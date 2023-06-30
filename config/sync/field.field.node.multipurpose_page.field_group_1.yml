@@ -1,0 +1,26 @@
+uuid: 011dda89-7c7d-41e3-aba3-604b70331fe7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_group_1
+    - node.type.multipurpose_page
+    - taxonomy.vocabulary.primary_vocabulary
+id: node.multipurpose_page.field_group_1
+field_name: field_group_1
+entity_type: node
+bundle: multipurpose_page
+label: 'Group 1'
+description: 'primary group'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      primary_vocabulary: primary_vocabulary
+    sort:
+      field: _none
+field_type: entity_reference

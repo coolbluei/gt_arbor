@@ -1,0 +1,19 @@
+uuid: 2c6639d7-51b6-4b3c-8974-495665f07e82
+langcode: und
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_nbsb_jump_link
+field_name: field_nbsb_jump_link
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: 08eb5222-0f7d-4668-afdf-167dc4ab0def
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sort_1
+    - node.type.multipurpose_page
+id: node.multipurpose_page.field_sort_1
+field_name: field_sort_1
+entity_type: node
+bundle: multipurpose_page
+label: 'Sort 1'
+description: 'primary sort order for primary group'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,127 @@
+uuid: d31a1972-7aef-487f-903a-69686b066312
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.super_block.field_group_1
+    - field.field.node.super_block.field_group_2
+    - field.field.node.super_block.field_nbsb_image_placement
+    - field.field.node.super_block.field_nbsb_jump_link
+    - field.field.node.super_block.field_nbsb_jump_link_location
+    - field.field.node.super_block.field_nbsb_primary_image
+    - field.field.node.super_block.field_nbsb_skin
+    - field.field.node.super_block.field_nbsb_teaser_text
+    - field.field.node.super_block.field_nbsb_title
+    - field.field.node.super_block.field_sort_1
+    - field.field.node.super_block.field_sort_2
+    - node.type.super_block
+  module:
+    - image
+    - link
+    - options
+    - text
+    - user
+id: node.super_block.default
+targetEntityType: node
+bundle: super_block
+mode: default
+content:
+  field_group_1:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_group_2:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_nbsb_image_placement:
+    type: list_key
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_nbsb_jump_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_nbsb_jump_link_location:
+    type: list_key
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_nbsb_primary_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_nbsb_skin:
+    type: list_key
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_nbsb_teaser_text:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_nbsb_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_sort_1:
+    type: number_integer
+    label: hidden
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_sort_2:
+    type: number_integer
+    label: hidden
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

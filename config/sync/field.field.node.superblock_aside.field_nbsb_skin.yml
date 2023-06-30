@@ -1,0 +1,23 @@
+uuid: 243291e8-41ed-4a34-8e32-ef396d220e09
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nbsb_skin
+    - node.type.superblock_aside
+  module:
+    - options
+id: node.superblock_aside.field_nbsb_skin
+field_name: field_nbsb_skin
+entity_type: node
+bundle: superblock_aside
+label: Skin
+description: 'Select a "skin" for this super block. <strong>Note:</strong> standard appearance classes (promotional block) and layout (widths) now <strong>will</strong> be applied to Super Blocks when editing the blocks settings.'
+required: false
+translatable: false
+default_value:
+  -
+    value: sb-skin-standard
+default_value_callback: ''
+settings: {  }
+field_type: list_string

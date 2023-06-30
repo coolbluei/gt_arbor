@@ -1,0 +1,21 @@
+uuid: 32de1ad9-7636-43b6-a251-a79296ebf210
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_body_3
+    - node.type.multipurpose_page
+  module:
+    - text
+id: node.multipurpose_page.field_body_3
+field_name: field_body_3
+entity_type: node
+bundle: multipurpose_page
+label: 'Body 3'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

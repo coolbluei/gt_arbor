@@ -1,0 +1,23 @@
+uuid: 2acb5d55-0f4a-4aff-bdbc-8ea1839a3f00
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sort_1
+    - node.type.super_block
+id: node.super_block.field_sort_1
+field_name: field_sort_1
+entity_type: node
+bundle: super_block
+label: 'Sort 1'
+description: 'primary group sort order'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

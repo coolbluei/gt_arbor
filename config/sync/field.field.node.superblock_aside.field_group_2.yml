@@ -1,0 +1,26 @@
+uuid: 0d959944-9596-4f2b-b4fa-0cd4d0a013b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_group_2
+    - node.type.superblock_aside
+    - taxonomy.vocabulary.primary_vocabulary
+id: node.superblock_aside.field_group_2
+field_name: field_group_2
+entity_type: node
+bundle: superblock_aside
+label: 'Group 2'
+description: 'secondary group'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      primary_vocabulary: primary_vocabulary
+    sort:
+      field: _none
+field_type: entity_reference

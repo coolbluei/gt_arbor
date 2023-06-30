@@ -1,0 +1,23 @@
+uuid: 1f3cfa80-5fae-4f78-9542-8b069cd15c2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sort_2
+    - node.type.super_block
+id: node.super_block.field_sort_2
+field_name: field_sort_2
+entity_type: node
+bundle: super_block
+label: 'Sort 2'
+description: 'secondary sort order'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,23 @@
+uuid: 8ebbe18b-ac91-4427-b859-88578541e4ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nbsb_image_placement
+    - node.type.superblock_aside
+  module:
+    - options
+id: node.superblock_aside.field_nbsb_image_placement
+field_name: field_nbsb_image_placement
+entity_type: node
+bundle: superblock_aside
+label: 'Image placement'
+description: 'Select an image placement option. This applies to when a super block sits alone in a region, or is set to be the full width of the region. The image will not take up the entire width of the block so you need to select whether it sits to the left, or right of the teaser text.'
+required: false
+translatable: false
+default_value:
+  -
+    value: sb-image-center
+default_value_callback: ''
+settings: {  }
+field_type: list_string
