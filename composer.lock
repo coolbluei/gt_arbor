@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d8b11b26e5a8689839779bc6279f2847",
+    "content-hash": "e65ac0043bce409e7558598e8808bc69",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5438,7 +5438,7 @@
         },
         {
             "name": "gt/gt_profile",
-            "version": "dev-master",
+            "version": "dev-feature/Drupal10",
             "dist": {
                 "type": "path",
                 "url": "gt/gt_profile",
@@ -5452,7 +5452,7 @@
         },
         {
             "name": "gt/gt_theme",
-            "version": "dev-master",
+            "version": "dev-feature/Drupal10",
             "dist": {
                 "type": "path",
                 "url": "gt/gt_theme",
@@ -5466,7 +5466,7 @@
         },
         {
             "name": "gt/gt_tools",
-            "version": "dev-master",
+            "version": "dev-feature/Drupal10",
             "dist": {
                 "type": "path",
                 "url": "gt/gt_tools",
@@ -5480,7 +5480,7 @@
         },
         {
             "name": "gt/hg_reader",
-            "version": "dev-master",
+            "version": "dev-feature/Drupal10",
             "dist": {
                 "type": "path",
                 "url": "gt/hg_reader",
@@ -10011,7 +10011,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.3"
+        "php": ">=8.1"
     },
     "platform-dev": [],
     "plugin-api-version": "2.2.0"
