@@ -3,20 +3,10 @@ langcode: en
 status: false
 dependencies:
   config:
-    - filter.format.minimal_html
-    - filter.format.text_editor_basic
-    - node.type.horizontal_landing_page
-    - node.type.multipurpose_page
     - node.type.page
-    - node.type.super_block
-    - node.type.superblock_aside
-    - node.type.vertical_landing_page
   module:
     - block
-    - block_content
     - contextual
-    - file
-    - filter
     - node
     - path
     - system
@@ -28,30 +18,15 @@ weight: 3
 is_admin: null
 permissions:
   - 'access administration pages'
-  - 'access block library'
   - 'access content overview'
   - 'access contextual links'
   - 'access site in maintenance mode'
-  - 'administer block content'
-  - 'administer block types'
   - 'administer blocks'
   - 'administer menu'
   - 'administer url aliases'
   - 'change own username'
-  - 'create horizontal_landing_page content'
-  - 'create multipurpose_page content'
   - 'create page content'
-  - 'create super_block content'
   - 'create url aliases'
-  - 'create vertical_landing_page content'
-  - 'delete own files'
-  - 'edit any horizontal_landing_page content'
-  - 'edit any multipurpose_page content'
   - 'edit any page content'
-  - 'edit any super_block content'
-  - 'edit any superblock_aside content'
-  - 'edit any vertical_landing_page content'
-  - 'use text format minimal_html'
-  - 'use text format text_editor_basic'
   - 'view own unpublished content'
   - 'view the administration theme'

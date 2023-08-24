@@ -1,4 +1,4 @@
-uuid: 13fe5615-e3a5-4a08-98e2-caa260fcf1a3
+uuid: 95fce205-d2df-43bf-96af-e278d68c07bd
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,7 @@ dependencies:
     - field.field.node.multipurpose_page.field_group_2
     - field.field.node.multipurpose_page.field_sort_1
     - field.field.node.multipurpose_page.field_sort_2
+    - field.field.node.multipurpose_page.layout_builder__layout
     - node.type.multipurpose_page
   module:
     - path
@@ -130,4 +131,5 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  layout_builder__layout: true

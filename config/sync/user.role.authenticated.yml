@@ -2,11 +2,7 @@ uuid: aca4ca2c-2602-49cb-859d-ee3a16ecba56
 langcode: en
 status: true
 dependencies:
-  config:
-    - filter.format.minimal_html
   module:
-    - file
-    - filter
     - node
     - system
 _core:
@@ -17,6 +13,4 @@ weight: 1
 is_admin: false
 permissions:
   - 'access content'
-  - 'delete own files'
-  - 'use text format minimal_html'
   - 'view own unpublished content'

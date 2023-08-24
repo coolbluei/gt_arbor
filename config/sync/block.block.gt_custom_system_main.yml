@@ -1,0 +1,22 @@
+uuid: 4d6f7b0f-d24c-41db-9c27-63e047045035
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gt_custom
+_core:
+  default_config_hash: fEXmvhXSHFjanAL1m4kgAmvFRH43L4LYPcrt5DvpoPE
+id: gt_custom_system_main
+theme: gt_custom
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: ''
+  label_display: '0'
+  provider: system
+visibility: {  }

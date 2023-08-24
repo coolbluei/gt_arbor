@@ -1,4 +1,4 @@
-uuid: cac551a9-4a20-4bee-bfc4-89f8534266db
+uuid: 1482357f-9d28-4cd4-b8da-c4b7d79772dd
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,7 @@ dependencies:
     - field.field.node.multipurpose_page.field_group_2
     - field.field.node.multipurpose_page.field_sort_1
     - field.field.node.multipurpose_page.field_sort_2
+    - field.field.node.multipurpose_page.layout_builder__layout
     - node.type.multipurpose_page
   module:
     - text
@@ -39,3 +40,4 @@ hidden:
   field_group_2: true
   field_sort_1: true
   field_sort_2: true
+  layout_builder__layout: true

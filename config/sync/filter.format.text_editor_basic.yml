@@ -1,4 +1,4 @@
-uuid: 0d5653d0-091f-47c1-8d52-12477b76e212
+uuid: 3d97e5b6-1090-4675-9f4b-855479bb6191
 langcode: en
 status: true
 dependencies: {  }
@@ -12,9 +12,12 @@ filters:
     status: true
     weight: -50
     settings: {  }
-  filter_null:
-    id: filter_null
+  filter_html:
+    id: filter_html
     provider: filter
     status: true
-    weight: -49
-    settings: {  }
+    weight: -10
+    settings:
+      allowed_html: '<a href hreflang> <em> <strong> <cite> <blockquote cite> <code> <ul type> <ol start type> <li> <dl> <dt> <dd> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <img src alt data-entity-type data-entity-uuid>'
+      filter_html_help: true
+      filter_html_nofollow: false

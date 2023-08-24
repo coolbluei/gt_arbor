@@ -1,4 +1,4 @@
-uuid: f4148c3e-6c01-4a0b-8a5f-746104555830
+uuid: 1b9794d8-dcd7-4b30-bace-4ed10e195fe3
 langcode: en
 status: true
 dependencies: {  }
@@ -32,6 +32,12 @@ process:
       source:
         - constants/source_base_path
         - filepath
+    -
+      plugin: skip_on_404
+      method: row
+      message: 'File does not exist'
+    -
+      plugin: urlencode
   uri:
     -
       plugin: file_copy

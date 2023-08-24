@@ -1,4 +1,4 @@
-uuid: 41360597-d3de-4009-a824-8d8dc197763b
+uuid: a8b20e6b-543d-4291-a157-46e88be0665f
 langcode: en
 status: true
 dependencies:
@@ -10,10 +10,94 @@ dependencies:
     - field.field.node.multipurpose_page.field_group_2
     - field.field.node.multipurpose_page.field_sort_1
     - field.field.node.multipurpose_page.field_sort_2
+    - field.field.node.multipurpose_page.layout_builder__layout
     - node.type.multipurpose_page
   module:
+    - layout_builder
+    - layout_discovery
     - text
     - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          5f2fd275-60c3-4a2b-aadb-465e81336365:
+            uuid: 5f2fd275-60c3-4a2b-aadb-465e81336365
+            region: content
+            configuration:
+              id: 'field_block:node:multipurpose_page:field_body_1'
+              label: 'Body 1'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings:
+                  field_formatter_class:
+                    class: ''
+            weight: 8
+            additional: {  }
+          c7aedfa9-d179-4523-bdf0-b5a72ad191b0:
+            uuid: c7aedfa9-d179-4523-bdf0-b5a72ad191b0
+            region: content
+            configuration:
+              id: 'field_block:node:multipurpose_page:field_body_2'
+              label: 'Body 2'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings:
+                  field_formatter_class:
+                    class: ''
+            weight: 9
+            additional: {  }
+          8b7d7d17-61f4-4e56-906f-9c33f82af8b7:
+            uuid: 8b7d7d17-61f4-4e56-906f-9c33f82af8b7
+            region: content
+            configuration:
+              id: 'field_block:node:multipurpose_page:field_body_3'
+              label: 'Body 3'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings:
+                  field_formatter_class:
+                    class: ''
+            weight: 10
+            additional: {  }
+          ec14c3c6-7912-48ab-8ad5-7841b29eb870:
+            uuid: ec14c3c6-7912-48ab-8ad5-7841b29eb870
+            region: content
+            configuration:
+              id: 'extra_field_block:node:multipurpose_page:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 11
+            additional: {  }
+        third_party_settings: {  }
 id: node.multipurpose_page.default
 targetEntityType: node
 bundle: multipurpose_page
@@ -79,4 +163,5 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  layout_builder__layout: true

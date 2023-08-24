@@ -3,19 +3,10 @@ langcode: en
 status: true
 dependencies:
   config:
-    - filter.format.embed_iframe
-    - filter.format.minimal_html
-    - filter.format.text_editor_basic
-    - node.type.horizontal_landing_page
-    - node.type.multipurpose_page
     - node.type.page
-    - node.type.super_block
-    - node.type.superblock_aside
-    - node.type.vertical_landing_page
   module:
     - block
     - contextual
-    - filter
     - node
     - path
     - system
@@ -39,26 +30,9 @@ permissions:
   - 'administer url aliases'
   - 'administer views'
   - 'change own username'
-  - 'create horizontal_landing_page content'
-  - 'create multipurpose_page content'
   - 'create page content'
-  - 'create super_block content'
   - 'create url aliases'
-  - 'create vertical_landing_page content'
-  - 'delete any horizontal_landing_page content'
-  - 'delete any multipurpose_page content'
   - 'delete any page content'
-  - 'delete any super_block content'
-  - 'delete any superblock_aside content'
-  - 'delete any vertical_landing_page content'
-  - 'edit any horizontal_landing_page content'
-  - 'edit any multipurpose_page content'
   - 'edit any page content'
-  - 'edit any super_block content'
-  - 'edit any superblock_aside content'
-  - 'edit any vertical_landing_page content'
-  - 'use text format embed_iframe'
-  - 'use text format minimal_html'
-  - 'use text format text_editor_basic'
   - 'view own unpublished content'
   - 'view the administration theme'

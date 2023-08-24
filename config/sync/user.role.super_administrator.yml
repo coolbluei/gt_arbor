@@ -1,23 +1,13 @@
-uuid: 1f825580-896d-4153-932a-4d24f5f00df7
+uuid: 136e6726-bfbb-4c67-9fa2-69a9beedd4d7
 langcode: en
 status: true
 dependencies:
   config:
-    - filter.format.embed_iframe
-    - filter.format.minimal_html
-    - filter.format.text_editor_advanced
-    - filter.format.text_editor_basic
-    - node.type.horizontal_landing_page
-    - node.type.multipurpose_page
     - node.type.page
-    - node.type.super_block
-    - node.type.vertical_landing_page
   module:
     - action
     - block
-    - block_content
     - contextual
-    - file
     - filter
     - image
     - node
@@ -32,15 +22,12 @@ weight: 5
 is_admin: null
 permissions:
   - 'access administration pages'
-  - 'access block library'
   - 'access content overview'
   - 'access contextual links'
   - 'access site in maintenance mode'
   - 'access site reports'
   - 'access user profiles'
   - 'administer actions'
-  - 'administer block content'
-  - 'administer block types'
   - 'administer blocks'
   - 'administer content types'
   - 'administer filters'
@@ -60,30 +47,13 @@ permissions:
   - 'bypass node access'
   - 'cancel account'
   - 'change own username'
-  - 'create horizontal_landing_page content'
-  - 'create multipurpose_page content'
   - 'create page content'
-  - 'create super_block content'
   - 'create url aliases'
-  - 'create vertical_landing_page content'
-  - 'delete any horizontal_landing_page content'
-  - 'delete any multipurpose_page content'
   - 'delete any page content'
-  - 'delete any super_block content'
-  - 'delete any vertical_landing_page content'
-  - 'delete own files'
   - 'delete own page content'
-  - 'edit any horizontal_landing_page content'
-  - 'edit any multipurpose_page content'
   - 'edit any page content'
-  - 'edit any super_block content'
-  - 'edit any vertical_landing_page content'
   - 'edit own page content'
   - 'notify of path changes'
   - 'select account cancellation method'
-  - 'use text format embed_iframe'
-  - 'use text format minimal_html'
-  - 'use text format text_editor_advanced'
-  - 'use text format text_editor_basic'
   - 'view own unpublished content'
   - 'view the administration theme'

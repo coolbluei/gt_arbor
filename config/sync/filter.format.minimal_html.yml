@@ -1,4 +1,4 @@
-uuid: 8eb8a946-ee09-4849-9399-872ecc6cc832
+uuid: 94489a4b-8a89-4e0c-9150-5c76fd77a159
 langcode: en
 status: true
 dependencies: {  }
@@ -25,9 +25,12 @@ filters:
     weight: 0
     settings:
       filter_url_length: 72
-  filter_null:
-    id: filter_null
+  filter_html:
+    id: filter_html
     provider: filter
     status: true
-    weight: 0
-    settings: {  }
+    weight: -10
+    settings:
+      allowed_html: '<a href hreflang> <em> <strong> <cite> <blockquote cite> <code> <ul type> <ol start type> <li> <dl> <dt> <dd> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <img src alt data-entity-type data-entity-uuid>'
+      filter_html_help: true
+      filter_html_nofollow: false
